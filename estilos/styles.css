@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.log-in{
+    border-radius:20px;
+    font-family: "Lexend";
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 25%;
+    height: 50vh;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border:1px solid rgba(255, 255, 255, 0.678);
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.2),
+    inset 0 1px 1px rgba(255,255,255,0.4);
+  color:white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.178);
+}
+
+.log-in h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+.log-in label{
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.log-in input{
+    width: 70%;
+    height: 3vh;
+    margin-top: .4rem;
+    margin-left: 1rem;
+    background-color: rgba(255, 255, 255, 0.116);
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding-left: .5rem;
+    border-radius: 20px;
+    
+}
+
+#pass-label{
+    margin-top: 1rem;
+}
+
+#descripcion-login{
+    font-size: 10px;
+    margin-top: 2rem;
+    font-weight: 200;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#boton-login{
+    background-color: rgba(255, 255, 255, 0.233);
+    margin-top: .5rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+}
+
+#boton-login:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.438);
+}
+
+.log-in a {
+    align-self: center;
+}
